@@ -13,7 +13,7 @@ import lombok.Data;
 @Data
 @Entity
 public class Car {
-  
+
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
@@ -21,7 +21,7 @@ public class Car {
 
   @Column(length = 30, nullable = false)
   private String modelo;
-  
+
   @Column(length = 30, nullable = false)
   private String fabricante;
 
